@@ -20,7 +20,7 @@ Print the Result:
 
 print(f'The number of unique mice in the dataset is: {unique_mice}'): Prints the total number of unique mice identified in the dataset using f-string formatting.
 
-### Generate summary statistics.
+### Generating Summary Statistics.
 
 Summary of my Data Handling and Cleaning Process
 Identifying and Handling Duplicates:
@@ -90,7 +90,7 @@ Data-driven Decisions: Facilitates informed decisions by presenting clear and st
 
 This structured analysis enhances understanding of drug efficacy in tumor treatment 
 
-### Create bar charts and pie charts.
+### Creating Bar Charts and Pie Charts.
 Bar Charts:
 Using Pandas plot() Method-
 timepoints_count = cleaned_data['Drug Regimen'].value_counts(): Computes the number of timepoints for each drug regimen.
@@ -113,7 +113,7 @@ labels = gender_counts.index and sizes = gender_counts.values: Extracts labels (
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', colors=['blue', 'pink'], startangle=140): Creates a pie chart using Matplotlib's pie() function.
 Other plt functions set the plot title, equal axis aspect ratio, and layout.
 
-### Calculate quartiles, find outliers, and create a box plot.
+### Calculation of quartiles, finding outliers, and creating a Box Plot.
 
 Identifying the Promising Treatments
 
@@ -142,7 +142,7 @@ Box: Represents the interquartile range (IQR) which encompasses the middle 50% o
 Whiskers: Extend to the furthest data points within 1.5 times the IQR.
 Points Beyond Whiskers: Indicate potential outliers.
 
-### Create a line plot and a scatter plot.
+### Creating a Line Plot and Scatter Plot.
 
 Selecting a Mouse
 
@@ -177,7 +177,7 @@ Analyzing the Correlation
 
 This plot helps us visualize if there’s any correlation between mouse weight and tumor volume, offering insights into potential relationships between these variables.
 
-### Calculate correlation and regression.
+### Calculation of correlation and regression.
 
 Grouping and Calculating Mean
 
@@ -195,7 +195,7 @@ Plotting Regression Line
 
 Using Matplotlib, we plot the scatter plot of mouse weight against average tumor volume. Additionally, we overlay the fitted regression line to visualize the trend and relationship between the variables.
 
-### Finalize analysis.
+### Final analysis.
 The analysis provided insights into drug treatment effectiveness to fight tumors (especially Capomulin). Variables explored were the distribution of mice by sex, and correlations between mouse characteristics and tumor sizes. These findings would help treatment plans and clinical research trials.
 
 ### Credit: Class notes, peer groups, class recordings, XPert Learning Assistant, Stack overflow, Youtube videos
